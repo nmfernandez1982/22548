@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/stylo.css" rel="stylesheet">
+    </head>
+    <body>
+
+    <div id="centrado">
+        
+        <h1>Formulario de ingreso</h1>
+    <form action="#" method="post">    
+        <fieldset>
+            <legend>Ingreso</legend>
+            <label for="nombre"  >Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Aqui su nombre" maxlength="20" minlength="2" required  >
+            <br>
+            <br>
+            <label for="apellido" >Apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Aqui su Apellido" maxlength="20" minlength="2" readonly="true" value="Fernandez"  required >
+            <br>
+            <br>
+            <label for="pass" >Password</label>
+            <input type="password" pattern="" placeholder="" id="" name=""  required  >
+            <br>
+            <br>
+            <label for="">Edad:</label>
+            <input type="number" max="99" min="18" name="" id="" placeholder=""  disabled value="25" required >
+            <br>
+            <br>
+            <label>Fnac:</label>
+            <input type="date" placeholder="" id="" name=""  required >
+
+        </fieldset>
+        <br>
+    <button class="button" type="submit" >Enviar</button>
+
+    </form>
+    </div>
+    
+    </body>
+</html>
