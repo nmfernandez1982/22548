@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/stylo.css" rel="stylesheet">
+        <link href="css/Estilo.css" rel="stylesheet">
+
+    </head>
+
+      <body>       
+
+    <div id="centrado">
+        
+        <h1>Formulario de ingreso</h1>
+        <h2>Formulario de ingreso</h2>
+        <h1>Formulario de ingreso</h1>
+    <form action="#" method="post">    
+        <fieldset>
+            <legend>Ingreso</legend>
+            <label for="nombre"  >Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Aqui su nombre" maxlength="20" minlength="2" required  >
+            <br>
+            <br>
+            <label for="apellido" >Apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Aqui su Apellido" maxlength="20" minlength="2" readonly="true" value="Fernandez"  required >
+            <br>
+            <br>
+            <label for="pass" >Password</label>
+            <input type="password" pattern="" placeholder="" id="" name=""  required  >
+            <br>
+            <br>
+            <label for="">Edad:</label>
+            <input type="number" max="99" min="18" name="" id="" placeholder=""  disabled value="25" required >
+            <br>
+            <br>
+            <label>Fnac:</label>
+            <input type="date" placeholder="" id="" name=""  required >
+
+        </fieldset>
+        <br>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Multiples</legend>
+
+            <label for="" >Provincia</label>
+            <select>
+                <option value="0" selected>Sin Informar...</option>
+                <option value="1">Buenos Aires</option>
+                <option value="2"  >Cordoba</option>
+                <option value="3" >Salta</option>
+            </select>
+        <br>
+        <br>
+        <br>
+        <label for="" >Auto</label>
+        
+        <select multiple >
+           <optgroup label="Nacional">
+            <option value="1" >Fiat</option>
+            <option value="1" >Renault</option>
+            <option value="1" >Ford</option>
+          </optgroup>
+          <optgroup label="Importado">
+            <option value="1" >BMW</option>
+            <option value="1" >Ferrari</option>
+            <option value="1" >AUDI</option>
+        </optgroup>
+        </select>
+        <br>
+        <br>
+        <label >Elija Color:</label>
+        <input type="color" >
+        <br>
+        <br>
+        <fieldset>
+            <legend>Lenguajes</legend>
+            <label>PHP:
+                <input type="checkbox" value="1" id="" name="php" >
+            </label>
+            <label>.NET:
+                <input type="checkbox" value="2" id="" name="net" >
+            </label>
+            <label>JAVA:
+                <input type="checkbox" value="3" id="" name="java" >
+            </label>
+        </fieldset>    
+
+        <fieldset>
+            <legend>Mascotas</legend>
+            <label>Perro
+                <input type="radio" value="" id="" name="mascota">
+            </label>
+            <label>Gato
+                <input type="radio" value="" id="" name="mascota" >
+            </label>
+            <label>Loro
+                <input type="radio" value="" id="" name="mascota">
+            </label>
+        </fieldset>
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    <fieldset>
+        <legend>Text Area</legend>
+    <textarea id="w3review" name="w3review" rows="4" cols="50">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea>
+    <br><br>
+    <label>Borrar Inputs</label>
+    <input type="reset" >
+    </fieldset>
+    <button class="button" type="submit" >Enviar</button>
+
+    </form>
+    </div>
+    
+    </body>
+</html>
