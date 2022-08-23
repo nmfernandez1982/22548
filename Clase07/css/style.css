@@ -1,0 +1,56 @@
+
+/*Selector Clase*/
+.textosH1
+{
+color:green;  
+text-decoration: overline;  
+}
+
+/*Selector ID*/
+#textoH1
+{
+color: red;
+}
+
+/*Selector Etiqueta*/
+h1
+{
+  color:blue;  
+}
+
+body
+{
+    /*background-color: lightblue; */    
+    background-image: url('../img/fondo.jpg');    
+    background-attachment: fixed;    
+    background-size: 100% 100%;
+}
+
+.claseP
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bolder;
+    word-spacing: 40px;
+    color: #622599;    
+    text-transform: capitalize;
+}
+
+p
+{
+    border-style: double;
+    border-top-style: dotted;
+    border-bottom-style: solid;
+    border-width: 5px;   
+}
+
+.boton
+{
+    text-decoration: none;
+    border: none;
+    background-color: brown;
+    font-size: 16px;
+    display: inline-block;
+}
+
