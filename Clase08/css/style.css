@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+#uno
+{
+ background-color: violet;   
+}
+
+#dos
+{
+    background-color: blue;
+}
+
+
+#tres
+{
+    background-color: coral;
+}
+
+#uno,#dos,#tres
+{
+    width: 100% ;
+    height:200px ;
+}
+
+
+section ~ p  /*todas las p que esten despues de un section (que esten en el mismo nivel)*/
+{
+    /*color:red;*/
+}
+
+
+div p  /*todas las p que esten en un div*/
+{
+    /*color: yellow;*/
+}
+
+div > p
+{
+   /*  color: green;*/
+}
+
+#claseHover
+{
+    width: 50%;
+    height: 200px;
+    background-color: red;
+}
+
+
+#claseHover:hover
+{
+    background-color: lightcoral;    
+}
+
+p:first-child
+{
+    color :green;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover
+{
+color:red;
+}
+
+a:visited
+{
+    color:green;
+}
+
+a:active
+{
+    color:yellow;
+}
+
+
+input:focus
+{
+    background-color: lightsalmon;
+}
+
+
+
+
+
+
+
+
+
