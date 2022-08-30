@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    width: 80%;
+    height: 140px;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px #999;
+}
+
+header h1
+{
+    font-family: 'Oswald', sans-serif;   
+    font-size: 20px;
+    color: darkslategray;
+    text-align: center;
+}
+
+#footer
+{
+    width: 80%;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+    margin-top: 15px;   
+}
+
+.texto_footer
+{
+    background-color: white !important;
+}
+
+.texto
+{
+    color: white;
+}
+
+
+main
+{
+    font-size: 24px;
+}
+
+main p
+{
+    font-size: 1em;
+}
+
+section p
+{
+    font-size: 1.5em;
+}
