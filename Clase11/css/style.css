@@ -1,0 +1,84 @@
+.container
+{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+h1
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue
+}
+body
+{
+    background-color: lightblue;
+}
+
+
+#uno,#dos,#tres
+{
+    width: 320px;
+    height: 480px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #999;
+}
+
+#dos
+{
+    align-self: center;
+}
+
+img
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: red solid 2px;
+}
+
+p
+{
+    padding: 10px;
+    text-align: justify;
+}
+
+.botonesVerdes
+{
+    background-color: green;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 15px 32px;
+    margin-left: 30px;
+}
+
+.botonesVerdes:hover
+{
+    background-color: lightgreen;
+    color: red;
+  
+}
+
+.botonesRojos
+{
+    background-color: red;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 15px 32px;
+}
+
+.botonesRojos:hover
+{
+    background-color: lightcoral;
+    color: green;    
+}
