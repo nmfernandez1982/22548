@@ -1,0 +1,44 @@
+.ocultar
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+
+
+
+body
+{
+    background-color: lightcoral;
+}
+
+
+
+
+
+@media screen and (min-width:100px) and (max-width:500) 
+{
+    body
+    {
+        background-color: aqua;
+    }   
+    div.ocultar
+    {
+        display: none;
+    } 
+}
+
+
+
+@media screen and (min-width:501px) and (max-width:768) 
+{
+    body
+    {
+        background-color: green;
+    }   
+    div.ocultar
+    {
+        background-color: yellow;
+    } 
+}
