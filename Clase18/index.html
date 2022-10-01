@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+    
+        <script>
+            //arrays ---> vector
+
+            var notas=[10,3,2,10,7,299,23,1,0,1,88,14];
+                    // 0  1 2  3 4  5  6  7 8 9 10 11 
+
+            console.log(notas[8]);
+            console.log(notas[2]);
+            console.log(notas[5]);
+
+            console.log(notas[12]);
+            console.log("----------------");
+            console.log(notas[12]);
+            console.log("----------------");
+            console.log(notas);
+
+            var nombres=["Nico","Carlos","Cecilia","Julieta"];
+                       //  0       1         2         3 
+            console.log(nombres[3]);
+            console.log(nombres[1]);
+
+
+            var notas_nombre=["Nico",12,"Julieta",true,14.4,false];
+
+            cant=notas.length;
+            console.log("La cantidad de Elementos es: "+cant);
+
+
+            suma=notas[3]+notas[10];
+            console.log("La suma de los Elementos es: "+suma);
+
+            console.log("-------Otro Tema---------");
+
+            var nota=7;
+
+            //if simple
+            if (nota>=7)
+            {
+                //resultado si la nota es mayor que 7
+                console.log("La nota es mayor o igual a 7");
+            }
+            else
+            {
+                //si no se cumple se ejecuta este bloque.
+                console.log("La nota no es mayor o igual a 7");
+            }
+
+            //if con doble condicion.
+            // Y ---> &&
+            // O ---> ||
+
+
+            console.log("------Doble condicion con Y---------");
+            nota=2;
+            curso=2;
+
+            if(nota>=7 && curso==5)
+            {
+                console.log("La nota es mayor o igual a 7");
+            }
+            else
+            {
+                console.log("La nota no es mayor o igual a 7");
+            }
+
+            /*
+            V V = V
+            V F = F
+            F V = F
+            F F = F  
+            
+            */
+
+            console.log("------Doble condicion con O---------");
+            nota=7;
+            curso=2;
+
+            if(nota>=7 || curso==5)
+            {
+                console.log("La nota es mayor o igual a 7");
+            }
+            else
+            {
+                console.log("La nota no es mayor o igual a 7");
+            }
+
+            /*
+            V V = V
+            F V = V
+            V F = V
+            F F = F              
+            */
+
+            /*
+            = --> operador de asignacion.
+            == --> operador de comparacion.
+            === --> operador de comparacion el tipo y el valor.            
+            */
+
+            calif=30;
+
+            if(calif>20)
+            {
+                console.log("La calificacion es mayor que 20");
+            }
+            else if(calif<20)
+            {
+                console.log("La calificacion es menor que 20");
+            }
+            else
+            {
+                console.log("La calificacion es 20");
+            }
+
+
+            var dia=10;
+
+            switch(dia)
+            {
+                case 0:
+                     console.log("Domingo");
+                     break;
+                case 1:
+                     console.log("Lunes");
+                     break;
+                case 2:
+                     console.log("Martes");
+                     break;
+                case 3:
+                     console.log("Miercoles");
+                     break;
+                case 4:
+                     console.log("Jueves");
+                     break;
+                case 5:
+                     console.log("Viernes");
+                     break;
+                case 6:
+                     console.log("Sabado");
+                     break;
+                default:
+                    console.log("Error");
+                     break;
+            }
+
+            
+
+
+
+
+
+        </script>
+    </body>
+</html>
