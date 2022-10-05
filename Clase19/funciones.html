@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+    </head>
+    <body onload="mostrar()" >
+
+       <table>
+        <tr> <td>Valor 1:</td><td><input type="number" id="valor1" ></td> </tr>
+        <tr> <td>Valor 2:</td><td><input type="number" id="valor2"></td></tr>
+        <tr><td><input id="valor3" type="number" ></td><td><input type="button" value="calcular" onclick="calcular()" ></td></tr>
+       </table>
+
+
+
+
+
+
+        <script>
+
+            imprimir();
+
+            imprimirError("Prueba");
+
+            imprimirError("Error de Memoria");
+
+            imprimirError("Error de Disco");
+
+            pruebaFuncion=calculo(15,30);
+            console.log("El resultado es: "+pruebaFuncion);
+
+
+
+
+            pruebaFuncion=calculo(150,150);
+            console.log("El resultado es: "+pruebaFuncion);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            function imprimir()
+            {
+             console.log("Mi primera Funcion");   
+            }
+
+
+            function imprimirError(TipoError)
+            {
+                console.log("El error es:"+TipoError);  
+            }
+
+            function calculo(valor1,valor2)
+            {
+                total=valor1+valor2;
+                return total;
+            }
+
+            function mostrar()
+            {
+                alert("Publicidad Codo a Codo");
+            }
+
+            function calcular()
+            {
+            x=document.getElementById("valor1").value;
+            y=document.getElementById("valor2").value;
+            rest=x*y;
+            document.getElementById("valor3").value=rest;
+            }
+
+        </script>
+    
+    </body>
+</html>
