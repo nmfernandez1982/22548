@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <table>
+            <tr><td>Valor1:</td><td><input type="number" id="valor1" onfocus="fondo(this);"  ></td></tr>
+            <tr><td>Valor2:</td><td><input type="number" id="valor2" onfocus="fondo(this);"></td></tr>
+            <tr><td>Valor3:</td><td><input type="number" id="valor3" onfocus="fondo(this);"></td></tr>
+            <tr>
+                <td>
+                    <select id="ope" name="ope" onfocus="fondo(this);">
+                        <option value="1">Suma</option>
+                        <option value="2">Resta</option>
+                        <option value="3">Multiplicacion</option>
+                        <option value="4">Division</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="button" value="calcular" onclick="calcular();">
+                </td>
+            </tr>
+        </table>
+
+
+        <p>Ingrese su nombre de usuario: <input type="text" id="usuario" name="usuario" onblur="cambiar();" > </p>
+
+
+
+        <img src="img/Foto3.jpg" width="150px" onmouseover="doble(this);" onmouseout="normal(this);" >
+
+
+        <script>
+            function fondo(tag)
+            {
+                tag.style.background="Yellow";
+            }
+
+            function cambiar()
+            {
+                var x=document.getElementById("usuario");
+                x.value=x.value.toUpperCase();
+            }
+            function doble(x)
+            {
+                x.style.width="300px";
+            }
+            function normal(x) 
+            {
+                x.style.width="150px"
+            }
+        </script>
+
+
+
+    </body>
+</html>
